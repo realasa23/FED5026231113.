@@ -39,20 +39,21 @@
             font-size: 18px;
         }
 
-        #menu-toggle:checked ~ .sidebar {
+        #menu-toggle:checked~.sidebar {
             left: -250px;
         }
 
-        #menu-toggle:checked ~ .menu-label {
+        #menu-toggle:checked~.menu-label {
             left: 10px;
         }
 
-        #menu-toggle:checked ~ .dashboard-content {
+        #menu-toggle:checked~.dashboard-content {
             margin-left: 0;
         }
 
 
-        .sidebar a, .sidebar button {
+        .sidebar a,
+        .sidebar button {
             text-decoration: none;
             color: white;
             display: flex;
@@ -62,7 +63,8 @@
             transition: background 0.3s;
         }
 
-        .sidebar a:hover, .sidebar button:hover {
+        .sidebar a:hover,
+        .sidebar button:hover {
             background: rgba(255, 255, 255, 0.2);
         }
 
@@ -100,6 +102,7 @@
             border-radius: 50%;
             margin-right: 10px;
         }
+
         .user-profile h5 {
             font-size: 18px;
             font-weight: bold;
@@ -110,6 +113,17 @@
             font-size: 14px;
             color: #d1d1d1;
             margin-bottom: 0;
+        }
+
+        .star img {
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -157,12 +171,12 @@
                     <p class="text-muted">Baby Sitter - Masa Kontrak: 12 bulan</p>
                 </div>
             </div>
-            <div class="rating">
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
+            <div>
+                <img src="star-clipart-lg.png" width="10px">
+                <img src="star-clipart-lg.png" width="10px">
+                <img src="star-clipart-lg.png" width="10px">
+                <img src="star-clipart-lg.png" width="10px">
+                <img src="star-clipart-lg.png" width="10px">
                 <small class="text-muted">Beri Penilaian untuk Intan</small>
             </div>
         </div>
@@ -175,13 +189,13 @@
                     <p class="text-muted">Satpam - Masa Kontrak: 6 bulan</p>
                 </div>
             </div>
-            <div class="rating">
+            <div>
                 <strong>4.3</strong>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
+                <img src="Bintang.png" width="10px">
+                <img src="Bintang.png" width="10px">
+                <img src="Bintang.png" width="10px">
+                <img src="Bintang.png" width="10px">
+                <img src="star-clipart-lg.png" width="10px">
                 <small class="text-muted">Sudah diberi Penilaian</small>
             </div>
         </div>
