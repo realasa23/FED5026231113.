@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OHISOME Global</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #FEC42D;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    
+    /* Header Styles */
+    .oh-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 0;
+      line-height: 1;
+      text-align: center;
+    }
+    
+    .some-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      line-height: 1;
+      text-align: center;
+    }
+    
+    .subtitle {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    
+    /* Button Container with Shadow Effect */
+    .btn-outer {
+      position: relative;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+    
+    .btn-shadow {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #8B4513;
+      border-radius: 1rem;
+      bottom: -8px;
+      right: -8px;
+      z-index: 1;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-main {
+      position: relative;
+      width: 100%;
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 1rem;
+      padding: 1.5rem 1rem;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-align: left;
+      padding-right: 3rem;
+      z-index: 2;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-outer:hover .btn-main {
+      transform: translate(8px, 8px);
+    }
+    
+    .btn-outer:hover .btn-shadow {
+      transform: translate(4px, 4px);
+      opacity: 0;
+    }
+    
+    /* Dot Menu Style */
+    .dot-menu {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+      font-size: 1.2rem;
+      color: #fbb57a;
+      pointer-events: none;
+    }
+    
+    /* Footer Styles */
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 1rem;
+    }
+    
+    .linktree {
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Header Section -->
+  <div class="oh-title">OH!</div>
+  <div class="some-title">SOME</div>
+  <div class="subtitle">OHISOME Global<br>Your One-Stop Happy Lifestyle store</div>
+  
+  <!-- Button with Shadow Effect -->
+  <div class="btn-outer">
+    <button class="btn-main">OHISOME offline stores</button>
+    <span class="dot-menu">⋮</span>
+    <div class="btn-shadow"></div>
+  </div>
+  
+  <div class="btn-outer">
+    <button class="btn-main">OHISOME opening hours</button>
+    <span class="dot-menu">⋮</span>
+    <div class="btn-shadow"></div>
+  </div>
+  
+  <div class="btn-outer">
+    <button class="btn-main">Here we are!</button>
+    <span class="dot-menu">⋮</span>
+    <div class="btn-shadow"></div>
+  </div>
+  
+  <div class="btn-outer">
+    <button class="btn-main">Let us know your concerns</button>
+    <span class="dot-menu">⋮</span>
+    <div class="btn-shadow"></div>
+  </div>
+  
+  <!-- Footer Section -->
+  <div class="footer">
+    <div class="linktree">linktr.ee/you ×</div>
+    <div>Bergabung dengan ohsome.idn hari ini di Linktree</div>
+  </div>
+</div>
+
+</body>
+</html>
